@@ -28,9 +28,10 @@ This project uses Unsupervised Machine Learning to categorize Premier League tea
 
 -Y-Axis (PCA 2): Represents "Style \& Defensive Volume." This distinguishes between high-pressing teams and those that prefer a compact, reactive defensive shape.
 
+![Tactical Map](pca_tactical_map_sorted.png)
 
 
-#### 2\. Tactical Identity Scorecard
+2\. Tactical Identity Scorecard
 
 The heatmap provides the "Identity Card" for each cluster. By integrating team names directly into the visual, we can see exactly how a group's statistical profile matches its real-world reputation.
 
@@ -40,6 +41,7 @@ The heatmap provides the "Identity Card" for each cluster. By integrating team n
 
 -Group 2 (Low-Block): High Green scores in Clearances and Interceptions, showing their strength in absorbing pressure and defending deep. (e.g., Everton, Forest).
 
+![Scorecard](tactical_scorecard_sorted.png)
 
 
 #### Repository Structure
@@ -51,4 +53,5 @@ The heatmap provides the "Identity Card" for each cluster. By integrating team n
 -outputs/: The generated tactical map and scorecard.
 
 -team\_clusters.csv: The final dataset mapping every team to its tactical group.
+
 
