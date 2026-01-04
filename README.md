@@ -52,6 +52,5 @@ The heatmap provides the "Identity Card" for each cluster. By integrating team n
 
 -outputs/: The generated tactical map and scorecard.
 
--team\_clusters.csv: The final dataset mapping every team to its tactical group.
 
 
